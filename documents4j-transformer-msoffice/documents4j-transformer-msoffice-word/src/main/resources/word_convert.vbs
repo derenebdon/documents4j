@@ -44,6 +44,13 @@ Function ConvertFile( inputFile, outputFile, formatEnumeration )
     End If
     On Error GoTo 0
 
+    With wordDocument.PageSetup
+     .LeftMargin = 36
+     .RightMargin = 36
+     .TopMargin = 36
+     .BottomMargin = 36
+    End With
+
     if formatEnumeration = MagicFormatFilteredHTML Then
       wordDocument.WebOptions.Encoding = msoEncodingUTF8
     End If
