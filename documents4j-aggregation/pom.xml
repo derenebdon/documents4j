@@ -4,7 +4,7 @@
 
     <parent>
         <artifactId>documents4j-parent</artifactId>
-        <groupId>com.documents4j</groupId>
+        <groupId>com.agillaire</groupId>
         <version>1.0.4-SNAPSHOT</version>
     </parent>
 
@@ -14,7 +14,7 @@
     <dependencies>
         <!-- Local dependencies -->
         <dependency>
-            <groupId>com.documents4j</groupId>
+            <groupId>com.agillaire</groupId>
             <artifactId>documents4j-api</artifactId>
             <version>${project.version}</version>
         </dependency>
